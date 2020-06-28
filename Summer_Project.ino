@@ -74,7 +74,7 @@ S6.attach(p6);
 }
 
 void loop() {
-int c = Serial.read(A);
+int c = Serial.read();
 while (c>900)
 {
   rightf;

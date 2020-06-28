@@ -8,12 +8,12 @@ Servo S3;
 Servo S4;
 Servo S5;
 Servo S6;
-const int p1 =1;
-const int p2 =2;
-const int p3 =3;
-const int p4 =4;
-const int p5 =5;
-const int p6 =6;
+int p1 =D3;
+int p2 =D4;
+int p3 =D6;
+int p4 =D13;
+int p5 =D9;
+int p6 =D8;
 void stand(){
 S1.write(90);
 S2.write(90);
